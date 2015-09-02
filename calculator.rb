@@ -13,8 +13,6 @@ num2 = gets.chomp
 say "1) Add 2) Subtract 3) Multiply 4) Divide"
 operator = gets.chomp
 
-#binding.pry 
-#put the binding right before the error
 
 if operator == '1'
 	result = num1.to_i + num2.to_i
